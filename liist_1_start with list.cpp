@@ -7,18 +7,18 @@ int main()
 {
 	list<int>x;
 	
-	x.assign({15,4,6,2});
+	x.assign({15,4,6,2}); 
 	
-    x.sort();
+    x.sort();//2 4 6 15
     
-    x.reverse();
+    x.reverse();// 15 6 4 2
     
-    cout << x.front() << "\n";
+    cout << x.front() << "\n"; // 15
     
-    cout << *x.begin() << "\n";
+    cout << *x.begin() << "\n"; // 15
     
-     x.push_front(12) ;
-     x.pop_front();
+     x.push_front(12) ; // 12 15 6 4 2
+     x.pop_front();    // 15 6 4 2
      
     list<int>::iterator itr;
     
